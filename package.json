@@ -1,0 +1,29 @@
+{
+  "name": "jstest",
+  "version": "1.0.0",
+  "description": "A crowd-sourced subscription tool",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0",
+    "sinon": "^3.0.0"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafanetow/JsTest.git"
+  },
+  "author": "Rafael Sequeiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafanetow/JsTest/issues"
+  },
+  "homepage": "https://github.com/rafanetow/JsTest#readme"
+}
